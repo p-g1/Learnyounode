@@ -10,7 +10,7 @@ var server = net.createServer(function listener(socket){
     '11' + '-'+ //11 is a fiddle as getMonth is pulling in the wrong date...
     pad(date.getDate())     + ' '+
     pad(date.getHours())  + ':'+
-    pad(date.getMinutes()) +'\n';
+    pad(date.getMinutes()) +'\n' ;
     socket.end(d);
 });
 
