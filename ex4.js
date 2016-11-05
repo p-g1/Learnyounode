@@ -5,5 +5,3 @@ var fs = require('fs')
         if (err) return console.error(err);
         else console.log(data.split('\n').length-1);
     })
-    
-    //console.log()
